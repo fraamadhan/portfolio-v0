@@ -1,8 +1,15 @@
-.jumbotron {
-  padding-top: 2rem;
+.about,
+.my-projects,
+.jumbotron,
+#contact {
+  padding-top: 4rem;
+}
+
+.jumbotron,
+.my-projects {
   background-color: #d4ee7e;
 }
 
-.my-projects {
-  background-color: #d4ee7e;
+.footer {
+  background-color: #606c38;
 }
