@@ -9,6 +9,9 @@ function sendEmail() {
       email_sender: email,
       message: message,
     };
+    console.log("name", NAME);
+    console.log("message", message);
+    console.log("email", email);
 
     emailjs.send("service_l12oorv", "template_8buijhj", data).then(
       (response) => {
