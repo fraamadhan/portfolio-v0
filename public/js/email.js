@@ -22,7 +22,7 @@ function sendEmail() {
         alert("Email sent successfully!");
       },
       (error) => {
-        console.log("FAILED", error);
+        alert("Failed to send the email");
       }
     );
   } else {
