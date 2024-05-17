@@ -1,10 +1,8 @@
-window.onload(
-  (function () {
-    emailjs.init({
-      publicKey: "8Jbep9TKhLqvizhPB",
-    });
-  })()
-);
+window.onload = function () {
+  emailjs.init({
+    publicKey: "8Jbep9TKhLqvizhPB",
+  });
+};
 
 function sendEmail() {
   const name = $("#name").val();
