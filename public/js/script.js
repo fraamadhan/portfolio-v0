@@ -19,17 +19,15 @@
   });
 })();
 
-$(".nav-link").on("click", function () {
-  $(".nav-link").removeClass("active");
-  $(this).addClass("active");
+document.addEventListener("DOMContentLoaded", function () {
+  const navLinks = document.querySelectorAll(".nav-link");
 
-  let category = $(this).html();
-  $("#title-menu").html(category);
-
-  if (category == "All Menu") {
-    showAllMenu();
-    return;
-  }
+  navLinks.forEach((link) => {
+    link.addEventListener("click", function () {
+      navLinks.forEach((navLink) => navLink.classList.remove("active"));
+      this.classList.add("active");
+    });
+  });
 });
 
 //TO-DO

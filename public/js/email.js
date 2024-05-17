@@ -5,6 +5,7 @@
 })();
 
 async function sendEmail() {
+  event.preventDefault();
   const name = $("#name").val();
   const email = $("#email").val();
   const message = $("#message").val();

@@ -5,7 +5,7 @@
       "category": "Mobile Development",
       "project-name": "WaifuKu",
       "description": "A simple application to show my waifu list with the recycler view.",
-      "doc-link": "",
+      "doc-link": "https://github.com/fraamadhan/WaifuKu",
       "image": "waifuku.jpg"
     },
     {
@@ -13,7 +13,7 @@
       "category": "Mobile Development",
       "project-name": "GithubApp",
       "description": "An application to get the data from Github using the Github API. The application uses the recycler view to display the list, and there's a search feature so users can search for specific users. Also, the application can show the detailed information of the user by clicking the card on the home page. It will show information about the user, like total followers, following, and their followers/following.",
-      "doc-link": "",
+      "doc-link": "https://github.com/fraamadhan/GithubUserApp",
       "image": "githubapp.jpg"
     },
     {
@@ -21,7 +21,7 @@
       "category": "Mobile Development",
       "project-name": "GithubApp-JetpackCompose",
       "description": "An application to get the data from Github using the Github API. The application uses the recycler view to display the list, and there's a search feature so users can search for specific users.",
-      "doc-link": "",
+      "doc-link": "https://github.com/fraamadhan/MyGithubDB",
       "image": "githubappcompose.jpg"
     },
     {
@@ -29,7 +29,7 @@
       "category": "Mobile Development",
       "project-name": "MyStoryApp",
       "description": "An application to let the user share their stories by uploading the image and description; they can see other stories as well. There's a login and register feature with a session, so if the user does not log out, as long as the token is still active, they will go straight to the home screen instead of being directed to the landing screen. There's a map feature, so users can see the user's location by uploading the story.",
-      "doc-link": "",
+      "doc-link": "https://github.com/fraamadhan/MyStoryAppAndroidIntermediateDicoding",
       "image": "mystoryapp.jpg"
     },
     {
@@ -37,8 +37,16 @@
       "category": "Mobile Development",
       "project-name": "Say It",
       "description": "An application that can be used by the user to practice their English word pronunciation There will be a list of the words on the home screen, so the user can click it to try to speak the word, and to find the word easily, the user can search the word. However, I use the remote mediator, so if the list does not contain all words, it will show the 16 data points first, and if the user scrolls the screen, it will give the other 16 data points. So the user can get the 16 data points when they open the application for the first time. I implemented the pagination on Android, and the application is an online-offline app. If the user does not have a connection, the data shown is the last data when they open it, but when there's a connection, it will refresh the data and get the fresh data.",
-      "doc-link": "",
+      "doc-link": "https://github.com/fraamadhan/SayIt",
       "image": "sayit.jpg"
+    },
+    {
+      "id": "1006",
+      "category": "Website Development",
+      "project-name": "Simple CRUD Topic",
+      "description": "An application to let user add, delete, update, and see the topic they have.",
+      "doc-link": "https://github.com/fraamadhan/sipalingmaha",
+      "image": "simaha-app"
     }
   ]
 }
