@@ -12,10 +12,6 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="../public/css/style.css" />
-    <!-- EmailJS -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-
-    <script src="../public/js/init.js"></script>
   </head>
   <!-- color: 606c38, 283618, fefae0, dda15e, bc6c25  -->
   <body>
@@ -159,7 +155,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-6">
-            <form class="g-3 needs-validation" novalidate id="contact-form" onsubmit="sendEmail(this)">
+            <form class="g-3 needs-validation" novalidate id="contact-form" onsubmit="event.preventDefault(); sendEmail(this)">
               <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
                 <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="What's your name?" required />
@@ -207,6 +203,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
     <script src="../public/js/email.js"></script>
     <script src="../public/js/script.js"></script>
