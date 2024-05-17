@@ -4,8 +4,6 @@
   });
 })();
 
-sendEmail();
-
 function sendEmail() {
   const name = $("#name").val();
   const email = $("#email").val();
@@ -22,7 +20,6 @@ function sendEmail() {
     (response) => {
       console.log("SUCCESS", response.status, response.text);
       alert("Email sent successfully!");
-      window.scrollTo({ top: 0, behavior: "smooth" });
     },
     (error) => {
       console.log("FAILED", error);
